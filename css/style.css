@@ -1,0 +1,100 @@
+/* ____ RESET ____ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ____ FINE RESET ____ */
+
+/* ____ BACKGROUND ____ */
+body {
+  background-image: url(../img/background.png);
+  background-repeat: repeat;
+}
+/* ____ FINE BACKGROUND ____ */
+
+/* ____ CONTAINER ____ */
+.container {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+}
+/* ____ FINE CONTAINER ____ */
+
+/* ____ HEADER ____ */
+header .titolo {
+  background-image: url(../img/bosco.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: arial;
+  border: 7px solid white;
+  height: 300px;
+}
+
+h1 {
+  border: 3px solid white;
+  width: 20%;
+}
+
+header .menu {
+  background:#504741;
+  height: 50px;
+}
+/* ____ FINE HEADER ____ */
+
+/* ____ MAIN ____ */
+main {
+  margin: 10px 0 20px;
+}
+
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ____ colonne ____*/
+main .col {
+  float: left;
+  background: white;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+main .col-left {
+width: 17%;
+height: 350px;
+}
+
+main .col-center {
+  width: 58%;
+  height: 300px;
+  margin: 0 4%;
+}
+
+main .col-right {
+  width: 17%;
+  background: none;
+}
+/* ____ fine colonne ____*/
+
+/* ____ box__*/
+main .col-right .box {
+  height: 100px;
+  background: white;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  padding: 3px;
+}
+/* ____ fine box ____*/
+
+/* ____ FINE MAIN ____ */
+
+/* ____ FOOTER ____ */
+footer .social {
+  background: white;
+  border-radius: 5px;
+  height: 50px;
+  }
+/* ____ FINE FOOTER ____ */
