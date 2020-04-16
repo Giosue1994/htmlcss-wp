@@ -40,7 +40,7 @@ header .sfondo .titolo {
   font-family: arial;
 }
 
-#mountains {
+header .sfondo #mountains {
   position: absolute;
   top: 27%;
   left: 50%;
@@ -59,11 +59,32 @@ header .sfondo .titolo h3 {
   position: relative;
   top: 45px;
 }
-
+/* ____ menu ____ */
 header .menu {
   background:#504741;
   height: 50px;
 }
+
+header .menu .list {
+  text-align: center;
+  border: 1px solid grey;
+}
+
+header .menu .list li {
+  display: inline-block;
+  line-height: 4.5;
+  list-style-type: none;
+  font-family: arial;
+  font-size: 11px;
+  font-weight: bold;
+  color: white;
+  padding: 0 15px;
+}
+
+header .menu .list li:hover {
+  background-color: #312b27;
+}
+/* ____ fine menu ____ */
 /* ____ FINE HEADER ____ */
 
 /* ____ MAIN ____ */
