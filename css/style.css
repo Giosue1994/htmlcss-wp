@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: arial;
 }
 /* ____ FINE RESET ____ */
 
@@ -37,7 +38,6 @@ header .sfondo .titolo {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-family: arial;
 }
 
 header .sfondo #mountains {
@@ -53,6 +53,11 @@ header .sfondo #mountains {
   font-size: 55px;
   border: 4px solid white;
   letter-spacing: 8px;
+}
+
+header .sfondo .titolo h1 a {
+  text-decoration: none;
+  color: white;
 }
 
 header .sfondo .titolo h3 {
@@ -74,7 +79,6 @@ header .menu .list li {
   display: inline-block;
   line-height: 4.5;
   list-style-type: none;
-  font-family: arial;
   font-size: 11px;
   font-weight: bold;
   color: white;
@@ -103,18 +107,68 @@ main .col {
   float: left;
   background: white;
   border-radius: 5px;
-  padding: 3px;
 }
 
 main .col-left {
-width: 17%;
-height: 350px;
+  padding: 8px;
+}
+
+main .col-center,
+main .col-right .box {
+  padding: 20px;
+}
+
+main .col h3{
+  color: #703a3a;
+}
+
+main .col-left {
+  position: relative;
+  width: 17%;
+}
+
+main .col-left .fa-align-left {
+  background-color: orange;
+  color: white;
+  text-align: center;
+  padding: 3px;
+  border-radius: 2px;
+  width: 15%;
+  margin-bottom: 30px;
+}
+
+main .col-left h3 {
+  position: absolute;
+  left: 20%;
+}
+
+main .col-left li {
+  list-style-type: none;
+  padding: 6px 0;
+}
+
+main .col-left li a {
+  text-decoration: none;
+  color: orange;
+}
+
+main .col-left li a:hover {
+  color: red;
 }
 
 main .col-center {
   width: 58%;
-  height: 300px;
   margin: 0 4%;
+}
+
+main .col-center h3 {
+  margin-bottom: 35px;
+  text-shadow:1px 1px 1px;
+}
+
+main .col-center p,
+main .col-right .box p {
+ line-height: 1.7;
 }
 
 main .col-right {
@@ -125,11 +179,13 @@ main .col-right {
 
 /* ____ box__*/
 main .col-right .box {
-  height: 100px;
   background: white;
   border-radius: 5px;
   margin-bottom: 30px;
-  padding: 3px;
+}
+
+main .col-right .box h3 {
+  margin-bottom: 35px;
 }
 /* ____ fine box ____*/
 
