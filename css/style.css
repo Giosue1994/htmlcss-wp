@@ -118,7 +118,8 @@ main .col-right .box {
   padding: 20px;
 }
 
-main .col h3{
+main .col h3{  font-weight: bold;
+  color: white;
   color: #703a3a;
 }
 
@@ -131,9 +132,9 @@ main .col-left .fa-align-left {
   background-color: orange;
   color: white;
   text-align: center;
+  font-size: 18px;
   padding: 3px;
   border-radius: 2px;
-  width: 15%;
   margin-bottom: 30px;
 }
 
@@ -193,8 +194,49 @@ main .col-right .box h3 {
 
 /* ____ FOOTER ____ */
 footer .social {
+  position: relative;
   background: white;
   border-radius: 5px;
-  height: 50px;
+  height: 120px;
+  padding: 3px;
   }
+
+footer .social p {
+  font-style: italic;
+  color: lightgrey;
+  text-align: center;
+}
+
+footer .social .fab {
+  color: lightgrey;
+  font-size: 35px;
+}
+
+footer .social .icon ul {
+  text-align: center;
+}
+
+footer .social .icon ul li {
+  display: inline-block;
+  line-height: 6.5;
+  list-style-type: none;
+  padding: 0 140px;
+}
+
+footer .social .icon ul li a {
+  text-decoration: none;
+}
+footer .social .icon ul .fab:hover {
+  color: grey;
+}
+
+.container .fa-arrow-circle-up {
+  position: fixed;
+  font-size: 50px;
+  bottom: 50px;
+  left: 50px;
+  height: 62px;
+  width: 100px;
+  text-decoration: none;
+}
 /* ____ FINE FOOTER ____ */
