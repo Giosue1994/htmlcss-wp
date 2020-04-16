@@ -22,19 +22,42 @@ body {
 /* ____ FINE CONTAINER ____ */
 
 /* ____ HEADER ____ */
-header .titolo {
+header .sfondo {
+  position: relative;
   background-image: url(../img/bosco.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
-  font-family: arial;
   border: 7px solid white;
   height: 300px;
 }
 
-h1 {
-  border: 3px solid white;
-  width: 20%;
+header .sfondo .titolo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: arial;
+}
+
+#mountains {
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 50px;
+}
+
+ header .sfondo .titolo h1 {
+  text-align: center;
+  font-size: 55px;
+  border: 4px solid white;
+  letter-spacing: 8px;
+}
+
+header .sfondo .titolo h3 {
+  position: relative;
+  top: 45px;
 }
 
 header .menu {
